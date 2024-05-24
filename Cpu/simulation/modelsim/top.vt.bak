@@ -1,0 +1,147 @@
+// Copyright (C) 1991-2014 Altera Corporation. All rights reserved.
+// Your use of Altera Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Altera Program License 
+// Subscription Agreement, the Altera Quartus II License Agreement,
+// the Altera MegaCore Function License Agreement, or other 
+// applicable license agreement, including, without limitation, 
+// that your use is for the sole purpose of programming logic 
+// devices manufactured by Altera and sold by Altera or its 
+// authorized distributors.  Please refer to the applicable 
+// agreement for further details.
+
+// *****************************************************************************
+// This file contains a Verilog test bench template that is freely editable to  
+// suit user's needs .Comments are provided in each section to help the user    
+// fill out necessary details.                                                  
+// *****************************************************************************
+// Generated on "12/07/2022 09:53:37"
+                                                                                
+// Verilog Test Bench template for design : top
+// 
+// Simulation tool : ModelSim-Altera (Verilog)
+// 
+
+`timescale 1 ns/ 1 ps
+module top_vlg_tst();
+// constants                                           
+// general purpose registers
+reg eachvec;
+// test vector input registers
+reg A1;
+reg [7:0] D;
+reg SW1;
+reg SW2;
+reg SW_choose;
+reg clk;
+reg rst;
+// wires                                               
+wire [6:0]  HEX0;
+wire [6:0]  HEX1;
+wire [6:0]  HEX2;
+wire [6:0]  HEX3;
+wire [6:0]  HEX4;
+wire [6:0]  HEX5;
+wire [6:0]  HEX6;
+wire [6:0]  HEX7;
+wire [15:0]  addr;
+wire arinc_led;
+wire arload_led;
+wire busmem_led;
+wire [7:0]  check_out;
+wire clr_led;
+wire [1:0]  cpustate_led;
+wire [7:0]  data;
+wire drhbus_led;
+wire drlbus_led;
+wire drload_led;
+wire irload_led;
+wire membus_led;
+wire pcbus_led;
+wire pcinc_led;
+wire pcload_led;
+wire quick_low_led;
+wire r0bus_led;
+wire [7:0]  r0dbus;
+wire r0load_led;
+wire r1bus_led;
+wire [7:0]  r1dbus;
+wire r1load_led;
+wire [7:0]  rambus;
+wire read_led;
+wire trbus_led;
+wire trload_led;
+wire write_led;
+wire zload_led;
+
+// assign statements (if any)                          
+top i1 (
+// port map - connection between master ports and signals/registers   
+	.A1(A1),
+	.D(D),
+	.HEX0(HEX0),
+	.HEX1(HEX1),
+	.HEX2(HEX2),
+	.HEX3(HEX3),
+	.HEX4(HEX4),
+	.HEX5(HEX5),
+	.HEX6(HEX6),
+	.HEX7(HEX7),
+	.SW1(SW1),
+	.SW2(SW2),
+	.SW_choose(SW_choose),
+	.addr(addr),
+	.arinc_led(arinc_led),
+	.arload_led(arload_led),
+	.busmem_led(busmem_led),
+	.check_out(check_out),
+	.clk(clk),
+	.clr_led(clr_led),
+	.cpustate_led(cpustate_led),
+	.data(data),
+	.drhbus_led(drhbus_led),
+	.drlbus_led(drlbus_led),
+	.drload_led(drload_led),
+	.irload_led(irload_led),
+	.membus_led(membus_led),
+	.pcbus_led(pcbus_led),
+	.pcinc_led(pcinc_led),
+	.pcload_led(pcload_led),
+	.quick_low_led(quick_low_led),
+	.r0bus_led(r0bus_led),
+	.r0dbus(r0dbus),
+	.r0load_led(r0load_led),
+	.r1bus_led(r1bus_led),
+	.r1dbus(r1dbus),
+	.r1load_led(r1load_led),
+	.rambus(rambus),
+	.read_led(read_led),
+	.rst(rst),
+	.trbus_led(trbus_led),
+	.trload_led(trload_led),
+	.write_led(write_led),
+	.zload_led(zload_led)
+);
+initial                                                
+begin                                                  
+// code that executes only once                        
+// insert code here --> begin                          
+                                                       
+// --> end                                             
+$display("Running testbench");                       
+end                                                    
+always                                                 
+// optional sensitivity list                           
+// @(event1 or event2 or .... eventn)                  
+begin                                                  
+// code executes for every event on sensitivity list   
+// insert code here --> begin                          
+                                                       
+@eachvec;                                              
+// --> end                                             
+end                                                    
+endmodule
+

@@ -1,0 +1,166 @@
+# Reading C:/altera/14.0/modelsim_ase/tcl/vsim/pref.tcl 
+# do project2022_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# ** Error: Copying modelsim.ini to C:\altera\14.0\modelsim_ase\win32aloem/../modelsim.ini
+# ** Error: (vmap-7) Failed to open ini file "C:\altera\14.0\modelsim_ase\win32aloem/../modelsim.ini" in write mode.
+# 
+# Permission denied. (errno = EACCES)
+# ** Error: (vmap-20) Cannot access for writing file "C:\altera\14.0\modelsim_ase\win32aloem/../modelsim.ini".
+# 
+# Permission denied. (errno = EACCES)
+# Error in macro ./project2022_run_msim_rtl_verilog.do line 6
+# Copying modelsim.ini to C:\altera\14.0\modelsim_ase\win32aloem/../modelsim.ini
+# ** Error: (vmap-7) Failed to open ini file "C:\altera\14.0\modelsim_ase\win32aloem/../modelsim.ini" in write mode.
+# 
+# Permission denied. (errno = EACCES)
+# ** Error: (vmap-20) Cannot access for writing file "C:\altera\14.0\modelsim_ase\win32aloem/../modelsim.ini".
+# 
+# Permission denied. (errno = EACCES)
+#     while executing
+# "vmap work rtl_work"
+t -work work +incdir+F:/quartus/Cpu/rtl {F:/quartus/Cpu/rtl/top.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# vlog -vlog01compat -work work +incdir+F:/quartus/Cpu/rtl {F:/quartus/Cpu/rtl/ram.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module ram
+# 
+# Top level modules:
+# 	ram
+# vlog -vlog01compat -work work +incdir+F:/quartus/Cpu/rtl {F:/quartus/Cpu/rtl/r1.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module r1
+# 
+# Top level modules:
+# 	r1
+# vlog -vlog01compat -work work +incdir+F:/quartus/Cpu/rtl {F:/quartus/Cpu/rtl/r0.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module r0
+# 
+# Top level modules:
+# 	r0
+# vlog -vlog01compat -work work +incdir+F:/quartus/Cpu/rtl {F:/quartus/Cpu/rtl/qtsj.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module qtsj
+# 
+# Top level modules:
+# 	qtsj
+# vlog -vlog01compat -work work +incdir+F:/quartus/Cpu/rtl {F:/quartus/Cpu/rtl/pc.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module pc
+# 
+# Top level modules:
+# 	pc
+# vlog -vlog01compat -work work +incdir+F:/quartus/Cpu/rtl {F:/quartus/Cpu/rtl/light_show.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module light_show
+# 
+# Top level modules:
+# 	light_show
+# vlog -vlog01compat -work work +incdir+F:/quartus/Cpu/rtl {F:/quartus/Cpu/rtl/ir.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module ir
+# 
+# Top level modules:
+# 	ir
+# vlog -vlog01compat -work work +incdir+F:/quartus/Cpu/rtl {F:/quartus/Cpu/rtl/dr.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module dr
+# 
+# Top level modules:
+# 	dr
+# vlog -vlog01compat -work work +incdir+F:/quartus/Cpu/rtl {F:/quartus/Cpu/rtl/CPU_Controller.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module CPU_Controller
+# 
+# Top level modules:
+# 	CPU_Controller
+# vlog -vlog01compat -work work +incdir+F:/quartus/Cpu/rtl {F:/quartus/Cpu/rtl/cpu.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module cpu
+# 
+# Top level modules:
+# 	cpu
+# vlog -vlog01compat -work work +incdir+F:/quartus/Cpu/rtl {F:/quartus/Cpu/rtl/control.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module control
+# 
+# Top level modules:
+# 	control
+# vlog -vlog01compat -work work +incdir+F:/quartus/Cpu/rtl {F:/quartus/Cpu/rtl/clk_div.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module clk_div
+# 
+# Top level modules:
+# 	clk_div
+# vlog -vlog01compat -work work +incdir+F:/quartus/Cpu/rtl {F:/quartus/Cpu/rtl/ar.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module ar
+# 
+# Top level modules:
+# 	ar
+# vlog -vlog01compat -work work +incdir+F:/quartus/Cpu/rtl {F:/quartus/Cpu/rtl/alu.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# 
+# vlog -vlog01compat -work work +incdir+F:/quartus/Cpu/simulation/modelsim {F:/quartus/Cpu/simulation/modelsim/top.vt}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module top_vlg_tst
+# 
+# Top level modules:
+# 	top_vlg_tst
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  top_vlg_tst
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps top_vlg_tst 
+# Loading work.top_vlg_tst
+# Loading work.top
+# Loading work.clk_div
+# Loading work.CPU_Controller
+# Loading work.cpu
+# Loading work.qtsj
+# Loading work.ar
+# Loading work.pc
+# Loading work.dr
+# Loading work.tr
+# Loading work.ir
+# Loading work.r0
+# Loading work.r1
+# Loading work.x
+# Loading work.alu
+# Loading work.z
+# Loading work.control
+# Loading work.ram
+# Loading work.light_show
+# ** Warning: (vsim-3015) F:/quartus/Cpu/rtl/top.v(48): [PCDPC] - Port size (16 or 16) does not match connection size (1) for port 'pcdbus'. The port definition is at: F:/quartus/Cpu/rtl/cpu.v(4).
+# 
+#         Region: /top_vlg_tst/i1/mcpu
+# ** Warning: (vsim-3015) F:/quartus/Cpu/rtl/cpu.v(57): [PCDPC] - Port size (1 or 1) does not match connection size (8) for port 'dout'. The port definition is at: F:/quartus/Cpu/rtl/z.v(2).
+# 
+#         Region: /top_vlg_tst/i1/mcpu/mz
+# ** Warning: (vsim-3015) F:/quartus/Cpu/rtl/cpu.v(60): [PCDPC] - Port size (1 or 1) does not match connection size (8) for port 'z'. The port definition is at: F:/quartus/Cpu/rtl/control.v(14).
+# 
+#         Region: /top_vlg_tst/i1/mcpu/mcontrol
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Note: $finish    : F:/quartus/Cpu/simulation/modelsim/top.vt(484)
+#    Time: 4560 ms  Iteration: 0  Instance: /top_vlg_tst
+# 1
+# Break in Module top_vlg_tst at F:/quartus/Cpu/simulation/modelsim/top.vt line 484
+# Simulation Breakpoint: 1
+# Break in Module top_vlg_tst at F:/quartus/Cpu/simulation/modelsim/top.vt line 484
+# MACRO ./project2022_run_msim_rtl_verilog.do PAUSED at line 34
